@@ -1,3 +1,5 @@
+
+
     .lst-kix_list_2-6>li:before {
       content: "•"
     }
@@ -700,8 +702,8 @@
     }
 
     .title {
-      font-size: 25pt;
-      font-family: "Oswald";
+      font-size: 30pt;
+      font-family: "Roboto Condensed";
       line-height: 1.0;
       page-break-after: avoid;
       orphans: 2;
@@ -1266,6 +1268,18 @@
     
     .laptop-view {
       display: none;
+    }
+
+    .modal-content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 80%;
+      min-height: 400px;
+    }
+
+    .interior-content {
+      display: flex; justify-content: space-between; padding: 0 8vw; margin: 8vw 0;
     }
   }
 
